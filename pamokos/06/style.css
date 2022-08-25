@@ -1,0 +1,29 @@
+.item {
+    background-color: tomato;
+    width: 100%;
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    color: wite;
+    padding: 10vh 0;
+}
+
+.flex {
+    display: flex;
+    min-height: 50vh;
+}
+
+.left-side,
+.right-side {
+    width: 50px;
+}
+
+.right-side>* {
+    width: 100px;
+}
+
+.left-side,
+.right-bottom,
+.right-top {
+    display: flex;
+}
