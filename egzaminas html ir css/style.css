@@ -96,7 +96,7 @@ section.main {
 }
 
 div.gallery {
-    display: flex;
+    display: grid;
     margin: 5px;
     border: 1px solid white;
     width: 150px;
@@ -122,6 +122,7 @@ div.desc img {
 }
 
 .footer-row {
+    display: flex;
     padding: 30px 10px;
     font-size: 30px;
 }
